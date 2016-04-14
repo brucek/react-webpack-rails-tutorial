@@ -7,7 +7,8 @@ import RouterCommentsContainer from '../containers/RouterCommentsContainer';
 
 export default (
   <Route path="/" component={Layout}>
-    <IndexRoute
+    <Route
+      path="react"
       component={RouterCommentsContainer}
     />
     <Route

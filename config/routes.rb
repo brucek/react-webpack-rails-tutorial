@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root "pages#index"
+  # root "pages#index"
+
+  get "react", to: "pages#index"
 
   get "simple", to: "pages#simple"
   get "no-router", to: "pages#no_router"

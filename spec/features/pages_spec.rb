@@ -1,7 +1,7 @@
 require "rails_helper"
 
 shared_examples "Git Commit SHA" do
-  background { visit root_path }
+  background { visit react_path }
   it "displays the current git commit" do
     el = find("#git-commit-sha")
     expect(el.text).to eq expected_text

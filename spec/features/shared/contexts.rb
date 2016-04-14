@@ -2,7 +2,7 @@ require "rails_helper"
 
 # Pages
 shared_context "React Router Demo", page: :main do
-  background { visit root_path }
+  background { visit react_path }
 end
 shared_context "React Demo", page: :react_demo do
   background { visit no_router_path }

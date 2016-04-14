@@ -16,7 +16,7 @@ export default class Layout extends BaseComponent {
         <header>
           <ul>
             <li>
-              <IndexLink to="/" activeClassName="active">
+              <IndexLink to="/react" activeClassName="active">
                 Comments (Root URL)
               </IndexLink>
             </li>
